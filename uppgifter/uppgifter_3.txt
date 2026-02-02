@@ -1,0 +1,41 @@
+uppgifter_3
+
+● Mapping
+● Endpoint
+● HTTP-method
+● Query-parameter
+● Status Code
+
+Mapping:
+I FastAPI innebär detta att du kopplar ihop en specifik URL (t.ex. /users) och en HTTP-metod (t.ex. GET) med en specifik Python-funktion i din kod 1.3.1. När någon besöker den adressen, "mappar" FastAPI anropet till rätt funktion så att den körs 1.3.1.
+
+Endpoint:
+En endpoint är den specifika adressen (URL:en) på servern dit en användare skickar sin förfrågan för att utföra en viss uppgift
+
+HTTP-method:
+Detta är ett "verb" som talar om för servern vad man vill göra med en resurs.
+ De vanligaste är: 
+GET: Hämta data (läsa)
+POST: Skapa ny data 
+PUT/PATCH: Uppdatera existerande data 
+DELETE: Ta bort data
+
+Query-parameter:
+Detta är extra information som läggs till i slutet av en URL efter ett frågetecken (?) för att filtrera eller anpassa resultatet
+Exempel: I URL:en /items?limit=10 är limit en query-parameter med värdet 10
+
+Status code:
+En siffra som servern skickar tillbaka för att berätta hur det gick med anropet:
+200 (OK): Allt gick bra 
+201 (Created): Något skapades framgångsrikt 
+404 (Not Found): Sidan eller resursen hittades inte 
+500 (Internal Server Error): Servern kraschade eller något gick fel på insidan
+Vill du se ett kodexempel i FastAPI där vi använder alla dessa delar tillsammans? 
+
+---Theory: Delete mapping---
+
+Analysera koden.
+
+
+
+

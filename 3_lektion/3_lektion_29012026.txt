@@ -1,0 +1,191 @@
+3_lektion_29012026 = TO FOLLOW THE VIDEO***
+
+===========================================
+Pb: import requests did not work, was marked as not recognized in "import requests" + fastapi did not work
+fix:
+At the root folder's level, in the Terminal install:
+1. uv venv
+2. source .venv/Scripts/activate
+3. pip install fastapi
+4. pip install "fastapi[standard]"
+5. uv pip install requests 
+==========================================
+
+fatsapi i google
+scrolla ner  installation
+
+VIRTUAL ENVIRONMENT (ve)
+VSC > Terminal and type:
+uv venv
+source .venv/Scripts/activate
+
+?:
+pip --version	= to check the version
+pip install uv	= to install uv
+
+
+uv pip ...
+
+
+*to create  file from the Terminal:
+touch file_name.ipynb
+
+uv är bättre för att installera
+
+
+
+-----
+en instans: en mini plats av en klass. 
+-----
+
+from fastapi import FastAPI
+app = FastAPI()
+
+-----All the above is done------
+
+decorator hjälper att återkalla en funktion, då mindre kod.
+
+
+Before man kör en endpoint, kör man en middleware = stor bonus, ganska advancerad
+
+## Decorator
+Kolla bild server, man kan server adresser, går man till google/web browser och skriver i url localhost8000 då kan man se ["World","Hello"]
+= JSON data
+
+I url kan man också skriver: http://localhost:8000/docs
+
+
+2 endpoints här: /items och {dynamic_värde}
+@app.get("/items/{item_id}")
+def get_item():
+
+--The problem with Dictionaries--
+
+pb with dict:
+
+Product = {
+"name": "Apple",
+"price": "22",
+"inStock": True
+}
+
+!: "22" är en str
+
+
+FastAPI includes Pydantic (Structure)s
+Pydantic Validation
+
+Why Pydantic?
+
+-Pydantic Step by Step-
+
+
+skapa en package = en folder and skapa en user.py fil
+
+What data can a USER hold?
+Det är en object, vi sätter …
+
+--POST--
+
+!:
+@app.post("/userz", response_model=UserSchema)
+def post_user(user: UserSchema): #body
+    return user
+
+med userz, we get "Method Not Allowed"
+because we say "take this" instead of "får jag content…", vi hämtar inte info, vi skickar
+
+
+--Konsumering...
+
+Ctrl C = stop the api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

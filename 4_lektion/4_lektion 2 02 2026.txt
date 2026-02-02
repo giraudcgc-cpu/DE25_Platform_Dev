@@ -1,0 +1,44 @@
+4_lektion 2 02 2026
+
+Workshop and Team
+
+Pair programming, is an Agile software development technic, 2 dev  on one cpu, one dev drives the other code, they change.
+
+- Pair programming boots code quality
+- TDD builds secure. relaible systems
+- continuations integration, enables rapid updates
+- small releases, speed feedback and reduces risks.
+
+
+meta-analysis:
+statistical technique that combines quantitative data from multiple independent studies to produce a single, high-powered, and more precise estimate of an effect,
+
+Terminalogies:
+navigator: granskar kod och vägleder, planerar nästa steg
+driver: granskar kod och följer instruktionerna från navigatorn
+pingpong pairing, deltagarna ofta växlar roller
+
+Förare/driver		Vs		Navigatör
+skriver själva koden.
+fokusera på syntax,
+vertyg,
+implemnteringsdetaljer
+
+
+----Pull request---
+
+git branch  		= se hur många brancher finns
+git branch branch_namn	=  skapa en ny branch
+git checkout master	= för att åter tillbaks till master
+
+create a file like project1.py 	= a folder cannot be exported
+git commit -m"blabla"		= commit
+git push -u origin new_branch_name	
+
+To remove a branch = git branch -d branch_name_to_be_deleted
+
+
+
+
+
+
